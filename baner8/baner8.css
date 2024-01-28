@@ -1,0 +1,87 @@
+.banner-8 .baner-head {
+    text-align: center;
+    position: relative;
+}
+.banner-8 .baner-head .baner-logo {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 80px;
+    height: 100px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-8 .baner-head .baner-logo:hover {
+    background-color: rgb(2, 185, 2);
+}
+.text{
+    margin-top: 10px;
+}
+.banner-8 .baner-head h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+}
+.banner-8 .baner-head p {
+    font-weight: 100;
+    font-size: 25px;
+}
+.banner-8 .baner-head .baner-logo p {
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.banner-8 .baner-list {
+    padding: 0 80px;
+    margin-top: 50px;
+}
+.banner-8 .baner-list .inner-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.banner-8 .baner-list .inner-item {
+    width: 22%;
+    height: 300px;
+
+}
+.banner-8 .baner-list .inner-item img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.banner-8 .baner-list .inner-item img:hover{
+    transform: scale(1.1);
+}
+.banner-8 .baner-list .inner-item .inner-cost{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;   
+    padding: 0 20px;
+}
+
+.text2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .text2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .text2:hover::after {
+    transform: scaleX(1);
+  }

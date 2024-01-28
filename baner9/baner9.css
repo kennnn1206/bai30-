@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-baner9 {
+    background-image: url(background9.jpg);
+    /* height: 521px; */
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-baner9 h1{
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    font-size: 65px;
+    width: 37%;
+    top: 220px;
+    left: 230px;
+    text-align: end;
+}
+.container-baner9 h1:hover{
+    color: black;
+}
